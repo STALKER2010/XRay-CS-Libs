@@ -1,0 +1,16 @@
+﻿Сборка начата 28.08.2014 17:00:44.
+     1>Проект "E:\dev\OpenAutomate\oarpc\tests\test_PipeTransport\test_PipeTransport.vcxproj" в узле 4 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /I..\..\inc /I..\..\..\inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\test_src\test_PipeTransport.cpp
+         test_PipeTransport.cpp
+       Link:
+         E:\Soft\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\dev\OpenAutomate\Debug\test_PipeTransport.exe" /INCREMENTAL /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\dev\OpenAutomate\Debug\test_PipeTransport.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\dev\OpenAutomate\Debug\test_PipeTransport.lib" /MACHINE:X86 /SAFESEH Debug\test_PipeTransport.obj
+         E:\dev\OpenAutomate\Debug\oalib.lib
+         E:\dev\OpenAutomate\Debug\oarpclib.lib
+     1>test_PipeTransport.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+         test_PipeTransport.vcxproj -> E:\dev\OpenAutomate\Debug\test_PipeTransport.exe
+     1>Сборка проекта "E:\dev\OpenAutomate\oarpc\tests\test_PipeTransport\test_PipeTransport.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:03.46

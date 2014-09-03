@@ -1,0 +1,13 @@
+﻿Сборка начата 28.08.2014 17:00:16.
+     1>Проект "E:\dev\OpenAutomate\oalib\oalib.vcxproj" в узле 4 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\OpenAutomate.c
+         OpenAutomate.c
+       Lib:
+         E:\Soft\VisualStudio2013\VC\bin\Lib.exe /OUT:"E:\dev\OpenAutomate\Debug\oalib.lib" /NOLOGO Debug\OpenAutomate.obj
+         oalib.vcxproj -> E:\dev\OpenAutomate\Debug\oalib.lib
+     1>Сборка проекта "E:\dev\OpenAutomate\oalib\oalib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.80

@@ -1,0 +1,18 @@
+﻿Сборка начата 29.08.2014 13:56:59.
+     1>Проект "E:\dev\OpenAutomate\examples\simple_app\simple_app.vcxproj" в узле 4 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /I../../inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release Multithreaded\\" /Fd"Release Multithreaded\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt settings.cpp simple_app.cpp
+         settings.cpp
+         simple_app.cpp
+       Link:
+         E:\Soft\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\dev\OpenAutomate\Release Multithreaded\simple_app.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\dev\OpenAutomate\Release Multithreaded\simple_app.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\dev\OpenAutomate\Release Multithreaded\simple_app.lib" /MACHINE:X86 /SAFESEH "Release Multithreaded\settings.obj"
+         "Release Multithreaded\simple_app.obj"
+         "E:\dev\OpenAutomate\Release Multithreaded\oalib.lib"
+         Создание кода
+         Создание кода завершено
+         simple_app.vcxproj -> E:\dev\OpenAutomate\Release Multithreaded\simple_app.exe
+     1>Сборка проекта "E:\dev\OpenAutomate\examples\simple_app\simple_app.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:17.96

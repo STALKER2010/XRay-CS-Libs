@@ -1,0 +1,27 @@
+﻿Сборка начата 29.08.2014 13:56:56.
+     1>Проект "E:\dev\OpenAutomate\oatest\oatestlib.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /Iinc /I../inc /I../oarpc/inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release Multithreaded\\" /Fd"Release Multithreaded\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\oacContext.cpp src\oacFileLogger.cpp src\oacLog.cpp src\oacLogger.cpp src\oacOAUtils.cpp src\oacProcess.cpp src\oacTestBase.cpp src\oacTextLogger.cpp
+         oacContext.cpp
+         oacFileLogger.cpp
+         oacLog.cpp
+         oacLogger.cpp
+         oacOAUtils.cpp
+         oacProcess.cpp
+         oacTestBase.cpp
+         oacTextLogger.cpp
+       Lib:
+         E:\Soft\VisualStudio2013\VC\bin\Lib.exe /OUT:"E:\dev\OpenAutomate\Release Multithreaded\oatestlib.lib" /NOLOGO /LTCG "Release Multithreaded\oacContext.obj"
+         "Release Multithreaded\oacFileLogger.obj"
+         "Release Multithreaded\oacLog.obj"
+         "Release Multithreaded\oacLogger.obj"
+         "Release Multithreaded\oacOAUtils.obj"
+         "Release Multithreaded\oacProcess.obj"
+         "Release Multithreaded\oacTestBase.obj"
+         "Release Multithreaded\oacTextLogger.obj"
+         oatestlib.vcxproj -> E:\dev\OpenAutomate\Release Multithreaded\oatestlib.lib
+     1>Сборка проекта "E:\dev\OpenAutomate\oatest\oatestlib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:08.20

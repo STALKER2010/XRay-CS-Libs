@@ -1,0 +1,22 @@
+Rewritten for Microsoft Visual Studio 2013 building(no CMake or msvcbuild.bat).
+
+Configurations:
+	.dll:
+		* Debug
+		* Release
+	.lib
+		* lib Debug
+		* lib Release
+
+Based on luabind fork by Oberon00.
+Commit SHA: 6e1204a491842692446dbab3dbac0d1ca3573900
+Optimized a bit for LuaJIT 2.
+
+Default paths:
+	In my case, I have this folder as "E:\dev\luabind". LuaJIT is located at "E:\dev\luajit". I move generated binaries of LuaJIT to "E:\dev\luajit\bin".
+	(Look at file INSTALL.png)
+	Compiled files are in "E:\dev\luabind\bin" subdirectories(depends on selected configuration).
+	Recommended: build all configurations, in order to fast switch your main project to different configurations.
+	"luabind" directory - is like "include" dir. It contains headers, that you must include into search paths of your project.
+
+(c) STALKER_2010 in 2014

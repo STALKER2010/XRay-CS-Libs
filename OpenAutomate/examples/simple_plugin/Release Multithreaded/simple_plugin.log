@@ -1,0 +1,17 @@
+﻿Сборка начата 29.08.2014 13:57:01.
+     1>Проект "E:\dev\OpenAutomate\examples\simple_plugin\simple_plugin.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /I../../inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release Multithreaded\\" /Fd"Release Multithreaded\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt simple_plugin.cpp
+         simple_plugin.cpp
+       Link:
+         E:\Soft\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\dev\OpenAutomate\Release Multithreaded\simple_plugin.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\dev\OpenAutomate\Release Multithreaded\simple_plugin.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\dev\OpenAutomate\Release Multithreaded\simple_plugin.lib" /MACHINE:X86 /SAFESEH /DLL "Release Multithreaded\simple_plugin.obj"
+         "E:\dev\OpenAutomate\Release Multithreaded\oalib.lib"
+            Создается библиотека E:\dev\OpenAutomate\Release Multithreaded\simple_plugin.lib и объект E:\dev\OpenAutomate\Release Multithreaded\simple_plugin.exp
+         Создание кода
+         Создание кода завершено
+         simple_plugin.vcxproj -> E:\dev\OpenAutomate\Release Multithreaded\simple_plugin.dll
+     1>Сборка проекта "E:\dev\OpenAutomate\examples\simple_plugin\simple_plugin.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:05.78

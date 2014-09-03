@@ -1,0 +1,50 @@
+﻿Сборка начата 02.09.2014 20:47:22.
+     1>Проект "E:\dev\bugtrap\lib\zlib\zlib.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /Iinclude /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy /D WIN32 /D NDEBUG /D _LIB /D _CRT_NONSTDC_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /MT /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"stat-release\\" /Fd"stat-release\vc120.pdb" /FR"stat-release\\" /Gd /TC /analyze- /errorReport:prompt src\adler32.c src\compress.c src\crc32.c src\deflate.c src\gzio.c src\infback.c src\inffast.c src\inflate.c src\inftrees.c src\ioapi.c src\iowin32.c src\mztools.c src\trees.c src\uncompr.c src\unzip.c src\zip.c src\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzio.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         ioapi.c
+         iowin32.c
+         mztools.c
+         trees.c
+         uncompr.c
+         unzip.c
+         zip.c
+         zutil.c
+         Создание кода...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(E:\dev\bugtrap\lib\zlib\bin\zlib.lib) does not match the Library's OutputFile property value (E:\dev\bugtrap\lib\zlib\bin\zlibS.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(zlib) does not match the Library's OutputFile property value (zlibS). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         E:\Soft\VisualStudio2013\VC\bin\Lib.exe /OUT:"bin\zlibS.lib" /NOLOGO "stat-release\adler32.obj"
+         "stat-release\compress.obj"
+         "stat-release\crc32.obj"
+         "stat-release\deflate.obj"
+         "stat-release\gzio.obj"
+         "stat-release\infback.obj"
+         "stat-release\inffast.obj"
+         "stat-release\inflate.obj"
+         "stat-release\inftrees.obj"
+         "stat-release\ioapi.obj"
+         "stat-release\iowin32.obj"
+         "stat-release\mztools.obj"
+         "stat-release\trees.obj"
+         "stat-release\uncompr.obj"
+         "stat-release\unzip.obj"
+         "stat-release\zip.obj"
+         "stat-release\zutil.obj"
+         zlib.vcxproj -> E:\dev\bugtrap\lib\zlib\bin\zlib.lib
+       BscMake:
+         E:\Soft\VisualStudio2013\VC\bin\bscmake.exe /nologo /o"bin\zlib.bsc" /n "stat-release\adler32.sbr" "stat-release\compress.sbr" "stat-release\crc32.sbr" "stat-release\deflate.sbr" "stat-release\gzio.sbr" "stat-release\infback.sbr" "stat-release\inffast.sbr" "stat-release\inflate.sbr" "stat-release\inftrees.sbr" "stat-release\ioapi.sbr" "stat-release\iowin32.sbr" "stat-release\mztools.sbr" "stat-release\trees.sbr" "stat-release\uncompr.sbr" "stat-release\unzip.sbr" "stat-release\zip.sbr" "stat-release\zutil.sbr"
+     1>Сборка проекта "E:\dev\bugtrap\lib\zlib\zlib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:27.45

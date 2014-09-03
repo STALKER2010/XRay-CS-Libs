@@ -1,0 +1,22 @@
+﻿Сборка начата 28.08.2014 17:00:16.
+     1>Проект "E:\dev\OpenAutomate\oarpc\oarpclib\oarpclib.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /I..\inc /I..\..\inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\oaRPCClient.c ..\src\oaRPCCommon.c ..\src\oaRPCPipeTransport.c ..\src\oaRPCServer.c ..\src\oaRPCSocketTransport.c
+         oaRPCSocketTransport.c
+         oaRPCServer.c
+         oaRPCPipeTransport.c
+         oaRPCCommon.c
+         oaRPCClient.c
+         Создание кода...
+       Lib:
+         E:\Soft\VisualStudio2013\VC\bin\Lib.exe /OUT:"E:\dev\OpenAutomate\Debug\oarpclib.lib" Ws2_32.lib /NOLOGO Debug\oaRPCClient.obj
+         Debug\oaRPCCommon.obj
+         Debug\oaRPCPipeTransport.obj
+         Debug\oaRPCServer.obj
+         Debug\oaRPCSocketTransport.obj
+         oarpclib.vcxproj -> E:\dev\OpenAutomate\Debug\oarpclib.lib
+     1>Сборка проекта "E:\dev\OpenAutomate\oarpc\oarpclib\oarpclib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:04.90

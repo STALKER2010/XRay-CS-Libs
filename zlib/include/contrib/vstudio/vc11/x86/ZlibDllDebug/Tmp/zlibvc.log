@@ -1,0 +1,43 @@
+﻿Сборка начата 28.08.2014 14:35:44.
+     1>Проект "E:\dev\zlib\include\contrib\vstudio\vc11\zlibvc.vcxproj" в узле 2 (целевые объекты Build).
+     1>PreBuildEvent:
+         cd ..\..\masmx86
+         bld_ml32.bat
+         :VCEnd
+         Microsoft (R) Macro Assembler Version 12.00.30723.0
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: match686.asm
+         Microsoft (R) Macro Assembler Version 12.00.30723.0
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: inffas32.asm
+       Link:
+         E:\Soft\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"x86\ZlibDllDebug\zlibwapi.dll" /INCREMENTAL /NOLOGO ..\..\masmx86\match686.obj ..\..\masmx86\inffas32.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\zlibvc.def" /MANIFEST:NO /DEBUG /PDB:"x86\ZlibDllDebug\zlibwapi.pdb" /MAP:"x86\ZlibDllDebug\zlibwapi.map" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x86\ZlibDllDebug\zlibwapi.lib" /MACHINE:X86 /SAFESEH /MACHINE:I386 /DLL x86\ZlibDllDebug\Tmp\zlib.res
+         x86\ZlibDllDebug\Tmp\adler32.obj
+         x86\ZlibDllDebug\Tmp\compress.obj
+         x86\ZlibDllDebug\Tmp\crc32.obj
+         x86\ZlibDllDebug\Tmp\deflate.obj
+         x86\ZlibDllDebug\Tmp\gzclose.obj
+         x86\ZlibDllDebug\Tmp\gzlib.obj
+         x86\ZlibDllDebug\Tmp\gzread.obj
+         x86\ZlibDllDebug\Tmp\gzwrite.obj
+         x86\ZlibDllDebug\Tmp\infback.obj
+         x86\ZlibDllDebug\Tmp\inffast.obj
+         x86\ZlibDllDebug\Tmp\inflate.obj
+         x86\ZlibDllDebug\Tmp\inftrees.obj
+         x86\ZlibDllDebug\Tmp\ioapi.obj
+         x86\ZlibDllDebug\Tmp\iowin32.obj
+         x86\ZlibDllDebug\Tmp\trees.obj
+         x86\ZlibDllDebug\Tmp\uncompr.obj
+         x86\ZlibDllDebug\Tmp\unzip.obj
+         x86\ZlibDllDebug\Tmp\zip.obj
+         x86\ZlibDllDebug\Tmp\zutil.obj
+     1>match686.obj : error LNK2026: небезопасный модуль для образа SAFESEH.
+     1>inffas32.obj : error LNK2026: небезопасный модуль для образа SAFESEH.
+     1>.\zlibvc.def(4): fatal error LNK1118: синтаксическая ошибка в операторе "VERSION"
+     1>Сборка проекта "E:\dev\zlib\include\contrib\vstudio\vc11\zlibvc.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:00.28

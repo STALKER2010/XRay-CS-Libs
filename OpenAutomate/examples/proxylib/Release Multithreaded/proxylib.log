@@ -1,0 +1,17 @@
+﻿Сборка начата 29.08.2014 13:56:59.
+     1>Проект "E:\dev\OpenAutomate\examples\proxylib\proxylib.vcxproj" в узле 3 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /I../../inc /I../../oarpc/inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release Multithreaded\\" /Fd"Release Multithreaded\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt oaProcess.cpp oaProxy.cpp oaProxyCmdBase.cpp
+         oaProcess.cpp
+         oaProxy.cpp
+         oaProxyCmdBase.cpp
+       Lib:
+         E:\Soft\VisualStudio2013\VC\bin\Lib.exe /OUT:"E:\dev\OpenAutomate\Release Multithreaded\proxylib.lib" /NOLOGO /LTCG "Release Multithreaded\oaProcess.obj"
+         "Release Multithreaded\oaProxy.obj"
+         "Release Multithreaded\oaProxyCmdBase.obj"
+         proxylib.vcxproj -> E:\dev\OpenAutomate\Release Multithreaded\proxylib.lib
+     1>Сборка проекта "E:\dev\OpenAutomate\examples\proxylib\proxylib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:05.09

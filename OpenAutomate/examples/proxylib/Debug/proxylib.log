@@ -1,0 +1,18 @@
+﻿Сборка начата 28.08.2014 17:00:21.
+     1>Проект "E:\dev\OpenAutomate\examples\proxylib\proxylib.vcxproj" в узле 4 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /I../../inc /I../../oarpc/inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt oaProcess.cpp oaProxy.cpp oaProxyCmdBase.cpp
+         oaProxyCmdBase.cpp
+         oaProxy.cpp
+         oaProcess.cpp
+         Создание кода...
+       Lib:
+         E:\Soft\VisualStudio2013\VC\bin\Lib.exe /OUT:"E:\dev\OpenAutomate\Debug\proxylib.lib" /NOLOGO Debug\oaProcess.obj
+         Debug\oaProxy.obj
+         Debug\oaProxyCmdBase.obj
+         proxylib.vcxproj -> E:\dev\OpenAutomate\Debug\proxylib.lib
+     1>Сборка проекта "E:\dev\OpenAutomate\examples\proxylib\proxylib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:08.24

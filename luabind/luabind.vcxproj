@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib Debug|Win32">
+      <Configuration>lib Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib Release|Win32">
+      <Configuration>lib Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5A9AE8C7-AB3A-4191-AC2B-BCE4AD935313}</ProjectGuid>
+    <RootNamespace>luabind</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib Debug|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib Release|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);E:\dev\luajit\src;E:\GIT\xray\cs\sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\dev\luajit\bin</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>E:\dev\luajit\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);E:\dev\luajit\src;E:\GIT\xray\cs\sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\dev\luajit\bin</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>E:\dev\luajit\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);E:\dev\luajit\src;E:\GIT\xray\cs\sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>E:\dev\luajit\bin</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>E:\dev\luajit\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);E:\dev\luajit\src;E:\GIT\xray\cs\sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>E:\dev\luajit\bin</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>E:\dev\luajit\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="luabind\adopt_policy.hpp" />
+    <ClInclude Include="luabind\back_reference.hpp" />
+    <ClInclude Include="luabind\back_reference_fwd.hpp" />
+    <ClInclude Include="luabind\build_information.hpp" />
+    <ClInclude Include="luabind\class.hpp" />
+    <ClInclude Include="luabind\class_info.hpp" />
+    <ClInclude Include="luabind\config.hpp" />
+    <ClInclude Include="luabind\container_policy.hpp" />
+    <ClInclude Include="luabind\copy_policy.hpp" />
+    <ClInclude Include="luabind\dependency_policy.hpp" />
+    <ClInclude Include="luabind\discard_result_policy.hpp" />
+    <ClInclude Include="luabind\error.hpp" />
+    <ClInclude Include="luabind\error_callback_fun.hpp" />
+    <ClInclude Include="luabind\exception_handler.hpp" />
+    <ClInclude Include="luabind\from_stack.hpp" />
+    <ClInclude Include="luabind\function.hpp" />
+    <ClInclude Include="luabind\function_converter.hpp" />
+    <ClInclude Include="luabind\function_introspection.hpp" />
+    <ClInclude Include="luabind\get_main_thread.hpp" />
+    <ClInclude Include="luabind\get_pointer.hpp" />
+    <ClInclude Include="luabind\handle.hpp" />
+    <ClInclude Include="luabind\intrusive_ptr_converter.hpp" />
+    <ClInclude Include="luabind\iterator_policy.hpp" />
+    <ClInclude Include="luabind\luabind.hpp" />
+    <ClInclude Include="luabind\lua_include.hpp" />
+    <ClInclude Include="luabind\lua_state_fwd.hpp" />
+    <ClInclude Include="luabind\make_function.hpp" />
+    <ClInclude Include="luabind\nil.hpp" />
+    <ClInclude Include="luabind\no_dependency.hpp" />
+    <ClInclude Include="luabind\object.hpp" />
+    <ClInclude Include="luabind\object_fwd.hpp" />
+    <ClInclude Include="luabind\open.hpp" />
+    <ClInclude Include="luabind\operator.hpp" />
+    <ClInclude Include="luabind\out_value_policy.hpp" />
+    <ClInclude Include="luabind\prefix.hpp" />
+    <ClInclude Include="luabind\raw_policy.hpp" />
+    <ClInclude Include="luabind\return_reference_to_policy.hpp" />
+    <ClInclude Include="luabind\scope.hpp" />
+    <ClInclude Include="luabind\set_package_preload.hpp" />
+    <ClInclude Include="luabind\shared_ptr_converter.hpp" />
+    <ClInclude Include="luabind\stack.hpp" />
+    <ClInclude Include="luabind\std_shared_ptr_converter.hpp" />
+    <ClInclude Include="luabind\tag_function.hpp" />
+    <ClInclude Include="luabind\typeid.hpp" />
+    <ClInclude Include="luabind\value_wrapper.hpp" />
+    <ClInclude Include="luabind\version.hpp" />
+    <ClInclude Include="luabind\weak_ref.hpp" />
+    <ClInclude Include="luabind\wrapper_base.hpp" />
+    <ClInclude Include="luabind\yield_policy.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\class.cpp" />
+    <ClCompile Include="src\class_info.cpp" />
+    <ClCompile Include="src\class_registry.cpp" />
+    <ClCompile Include="src\class_rep.cpp" />
+    <ClCompile Include="src\create_class.cpp" />
+    <ClCompile Include="src\error.cpp" />
+    <ClCompile Include="src\exception_handler.cpp" />
+    <ClCompile Include="src\function.cpp" />
+    <ClCompile Include="src\function_introspection.cpp" />
+    <ClCompile Include="src\inheritance.cpp" />
+    <ClCompile Include="src\link_compatibility.cpp" />
+    <ClCompile Include="src\object_rep.cpp" />
+    <ClCompile Include="src\open.cpp" />
+    <ClCompile Include="src\operator.cpp" />
+    <ClCompile Include="src\pcall.cpp" />
+    <ClCompile Include="src\scope.cpp" />
+    <ClCompile Include="src\set_package_preload.cpp" />
+    <ClCompile Include="src\shared_ptr_converter.cpp" />
+    <ClCompile Include="src\stack_content_by_name.cpp" />
+    <ClCompile Include="src\weak_ref.cpp" />
+    <ClCompile Include="src\wrapper_base.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,15 @@
+﻿Сборка начата 28.08.2014 17:00:19.
+     1>Проект "E:\dev\OpenAutomate\oautillib\oautillib.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /I..\inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt OpenAutomateUtil.c
+         OpenAutomateUtil.c
+     1>e:\dev\openautomate\oautillib\openautomateutil.c(1052): warning C4090: функция: разные квалификаторы "const"
+     1>e:\dev\openautomate\oautillib\openautomateutil.c(1072): warning C4101: dwDisp: неиспользованная локальная переменная
+       Lib:
+         E:\Soft\VisualStudio2013\VC\bin\Lib.exe /OUT:"E:\dev\OpenAutomate\Debug\oautillib.lib" /NOLOGO Debug\OpenAutomateUtil.obj
+         oautillib.vcxproj -> E:\dev\OpenAutomate\Debug\oautillib.lib
+     1>Сборка проекта "E:\dev\OpenAutomate\oautillib\oautillib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.65

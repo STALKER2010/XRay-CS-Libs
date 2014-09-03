@@ -1,0 +1,21 @@
+﻿Сборка начата 29.08.2014 13:57:20.
+     1>Проект "E:\dev\OpenAutomate\examples\simple_proxy\simple_proxy.vcxproj" в узле 4 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /I../../inc /I../../oarpc/inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release Multithreaded\\" /Fd"Release Multithreaded\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt oaProcess.cpp settings.cpp simple_proxy.cpp
+         oaProcess.cpp
+         settings.cpp
+         simple_proxy.cpp
+       Link:
+         E:\Soft\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\dev\OpenAutomate\Release Multithreaded\simple_proxy.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\dev\OpenAutomate\Release Multithreaded\simple_proxy.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\dev\OpenAutomate\Release Multithreaded\simple_proxy.lib" /MACHINE:X86 /SAFESEH "Release Multithreaded\oaProcess.obj"
+         "Release Multithreaded\settings.obj"
+         "Release Multithreaded\simple_proxy.obj"
+         "E:\dev\OpenAutomate\Release Multithreaded\oalib.lib"
+         "E:\dev\OpenAutomate\Release Multithreaded\oarpclib.lib"
+         Создание кода
+         Создание кода завершено
+         simple_proxy.vcxproj -> E:\dev\OpenAutomate\Release Multithreaded\simple_proxy.exe
+     1>Сборка проекта "E:\dev\OpenAutomate\examples\simple_proxy\simple_proxy.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:09.38

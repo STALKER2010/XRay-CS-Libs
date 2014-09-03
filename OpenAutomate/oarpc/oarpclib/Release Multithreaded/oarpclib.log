@@ -1,0 +1,21 @@
+﻿Сборка начата 29.08.2014 13:56:56.
+     1>Проект "E:\dev\OpenAutomate\oarpc\oarpclib\oarpclib.vcxproj" в узле 3 (целевые объекты Build).
+     1>ClCompile:
+         E:\Soft\VisualStudio2013\VC\bin\CL.exe /c /I..\inc /I..\..\inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release Multithreaded\\" /Fd"Release Multithreaded\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\oaRPCClient.c ..\src\oaRPCCommon.c ..\src\oaRPCPipeTransport.c ..\src\oaRPCServer.c ..\src\oaRPCSocketTransport.c
+         oaRPCClient.c
+         oaRPCCommon.c
+         oaRPCPipeTransport.c
+         oaRPCServer.c
+         oaRPCSocketTransport.c
+       Lib:
+         E:\Soft\VisualStudio2013\VC\bin\Lib.exe /OUT:"E:\dev\OpenAutomate\Release Multithreaded\oarpclib.lib" Ws2_32.lib /NOLOGO /LTCG "Release Multithreaded\oaRPCClient.obj"
+         "Release Multithreaded\oaRPCCommon.obj"
+         "Release Multithreaded\oaRPCPipeTransport.obj"
+         "Release Multithreaded\oaRPCServer.obj"
+         "Release Multithreaded\oaRPCSocketTransport.obj"
+         oarpclib.vcxproj -> E:\dev\OpenAutomate\Release Multithreaded\oarpclib.lib
+     1>Сборка проекта "E:\dev\OpenAutomate\oarpc\oarpclib\oarpclib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.58
